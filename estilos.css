@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: gray;
+    font-family: 'cambria math';
+}
+
+nav ul {
+    background: purple;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background: purple;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: right;
+}
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+
+.contenido{
+    padding: 60px 0;
+    width: 70%;
+    max-width: 1000%;
+    margin: auto;
+}
+
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
