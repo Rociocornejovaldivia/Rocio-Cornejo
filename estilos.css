@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: green;
+    font-family: 'cambria math';
+}
+h1{
+    text-align: center;
+    background-color: pink;
+    color: yellow;
+    padding: 20px;
+    font-size:500%; 
+    
+}
+
+nav ul {
+    background: orange;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: purple;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover {
+    background: orange;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: right;
+}
+.contenido {
+    display: flex;
+    margin: 60px;
+}
+
+.contenido{
+    padding: 60px 0;
+    width: 70%;
+    max-width: 1000%;
+    margin: auto;
+}
+
+
+.secciones {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+
+}
+
+footer {
+    background: gray;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor-footer
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid blue;
+}
+
+.content-foo
+{
+    text-align: center;    
+}
+
+.content-foo h4
+{
+    color: blue;
+    border-bottom: 3px solid rgb(89, 157, 213);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p > a
+{
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+}
+
+.content-foo p > a:hover
+{
+    font-weight: 400;
+    color: rgb(144, 17, 17);
+}
